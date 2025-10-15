@@ -18,5 +18,5 @@ A simple web app that changes the background color randomly and displays its RGB
 
 
 ## 👨‍💻 Author
-**Rahul**  
+**Dinesh**  
 *Frontend Developer in progress ⚡*
