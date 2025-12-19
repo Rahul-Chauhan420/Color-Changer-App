@@ -1,52 +1,59 @@
 /* ------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------- */
 :root {
-    --main-bg: rgb(250, 235, 215);
+  --main-bg: rgb(250, 235, 215);
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, cursive, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, cursive,
+    sans-serif;
 }
 
 #container {
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--main-bg);
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--main-bg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #btn-and-color-code-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+
+  position: relative;
 }
 
 #change-color-button {
-    width: 10em;
-    height: 2.5em;
-    
-    font-family: cursive;
-    font-size: 1em;
-    font-weight: 500;
+  width: 10em;
+  height: 2.5em;
+
+  font-family: cursive;
+  font-size: 1em;
+  font-weight: 500;
+}
+#change-color-button:hover {
+  border: 0.1em solid black;
+  border-radius: 2px;
 }
 
 #display-color-code {
-    text-align: center;
-    font-size: 1.25em;
-}
-
-#change-color-button:hover {
-    border: 0.1em solid black;
-    border-radius: 2px;
+  text-align: center;
+  font-size: 1.25em;
+  cursor: pointer;
+  transition: all 200ms ease;
+  position: relative;
 }
 
 /* ------------------------------------------------------------------------------------------- */
